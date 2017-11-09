@@ -1,0 +1,60 @@
+<!--
+  Generated template for the WelcomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!--
+  ///// This is old code
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>welcome</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+</ion-content>
+-->
+
+<ion-slides pager>
+
+  <!-- This is first slider -->
+   <ion-slide style="background-color: #16738D">
+   <ion-icon ios="ios-globe" md="md-globe" style="zoom:5.0;"></ion-icon>
+   <h1 style="color: #E6D5F7">Howdy, looking for any place?</h1>
+   <p style="font-family:open-sans; font-size:14px; color:#B998C9">Find Near Me helps on
+  your <b>own</b> terms, <i>anywhere in the world!</i>!</p>
+   </ion-slide>
+
+  <!-- This is second slider -->
+    <ion-slide style="background-color: #7C2249">
+        <ion-icon ios="ios-heart" md="md-heart" style="zoom:5.0;"></ion-icon>
+        <h1 style="color: #CFADEE">Movie Theater, Tourist Place for Lovers Point!!! Hmm..</h1>
+        <p style="font-family:open-sans; font-size:14px; color:#D3B2E4">Catch-up any place <b>with</b> your own <i>desired root!</i>.</p>
+        </ion-slide> 
+
+  <!-- This is first slider -->
+  <ion-slide style="background-color: #175533">
+      <ion-icon ios="ios-restaurant" md="md-restaurant" style="zoom:5.0;"></ion-icon>
+      <h1 style="color: #DFCBEB">Restaurants, Grocery Stores, Hospitals, Toilets </h1>
+      <p style="font-family:open-sans; font-size:14px; color:#EBD5B4">Ask <b>any</b> help, <b>Find Near Me</b> works on your <i>any device</i>!</p>
+      </ion-slide>
+
+  <!-- This is final slider uses BG IMAGE for background image later on at welcome.scss-->
+      <ion-slide class="bg-image">
+        <h1 style="color:#B1E3F1">Welcome to our App!</h1>
+        <h4 style="color:#31CCD1">Brought to you by</h4>
+        <h2 class="padding" style="font-family:open-sans; font-size:14px; color:#7CBDDB">
+          Jenni Hyvärinen 1601539, Jere Lämsä 1601536, Juho-pekka Kesti 1601537
+        </h2>
+
+        <!--Button to continue -->
+        <div style="position:ansolute; bottom: 120px; text-align:center; z-index:1000; width:100%">
+          <button ion-button color="myWhite" round outline [navPush]="nextPage">Let's Go!</button>
+        </div>
+      </ion-slide>
+  </ion-slides>

@@ -1,0 +1,55 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!--This is a login page of Find Near Me -->
+<ion-content class="bg-image no-scroll" padding>
+  <!-- Logo of App -->
+  <img src="assets/img/logo1.png" class="logo">
+
+  <!-- Username and Password field with proper label -->
+  <div>
+    <ion-list class="list" inset>
+      <ion-item class="label">
+        <ion-label color="myWhite" style="font-size:12px" stacked>Username</ion-label>
+        <ion-input type="text" placeholder="Enter Username"></ion-input>
+      </ion-item>
+
+      <ion-item class="label">
+        <ion-label color="myWhite" style="font-size:12px" stacked>Password</ion-label>
+        <ion-input color="myWhite" type="password" placeholder="Enter Password"></ion-input>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <!-- Buttons -->
+<p class="text" style="font-family:open-sans; font-size:14px; color:#ebebeb">Forgot your password?</p>
+
+<div text-center>
+  <button class="btnWidth" ion-button color="secondary" round [navPush]="nextPage">Login</button>
+</div>
+
+
+<img src="assets/imgs/facebook.png" class="fb-button">
+<img src="assets/imgs/twitter.png" class="twitter-button">
+
+
+<!-- Make sure to remember that eventually actions will be added, click events etc,-->
+</ion-content>
+
+<!-- This was old code
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+</ion-content>
+-->
